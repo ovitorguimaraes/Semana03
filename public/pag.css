@@ -1,0 +1,181 @@
+body {
+    background-color: #141414;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Impact', sans-serif;
+    font-weight: 300;
+    color: hwb(278 9% 10%);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.search-form {
+    display: flex;
+    background: #000;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.search-form input {
+    padding: 5px;
+    border: none;
+    background: transparent;
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    margin-right: 5px;
+}
+
+.user-profile {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.banner {
+    background: url(iamstilhere.jpg) no-repeat center center/cover;
+    height: 450px; 
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; 
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-align: left;
+    background: none; 
+    padding: 10px;
+}
+
+.banner-image {
+    width: 150px; 
+    margin-bottom: 10px;
+}
+
+
+
+
+.play-button {
+    display: block;
+    background-color: #6a0dad;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+h2.titulo-filmes {
+    font-size: 22px;
+    padding-left: 30px;
+    margin-top: 30px; 
+    margin-bottom: 0px; 
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+}
+
+.grid-filmes {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.filme {
+    min-width: 200px;
+    text-align: center;
+}
+
+.filme img {
+    width: 200px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.filme img:hover {
+    transform: scale(1.1);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.search-form button img.lupa {
+    width: 25px; 
+    height: 25px;
+}
+
+
+
+
+.filmep {
+    min-width: 200px;
+    text-align: center;
+}
+
+.filmep img {
+    width: 230px; 
+    height: 340px; 
+    object-fit: cover; 
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.filmep img:hover {
+    transform: scale(1.1);
+}
+
+
+.usuario img {
+    max-width: 80%;
+    margin-top: 10px;
+    margin-right: -460px;  
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+
